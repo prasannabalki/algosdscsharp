@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-hello",
+      "appliesTo": "ConsoleApp1/hello.cs",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-algos",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}

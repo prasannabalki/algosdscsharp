@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
@@ -10,8 +6,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-                  Console.WriteLine("Hello World!");    
+            Console.WriteLine("Array Initialization");
 
+            string[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
+
+            for (int i = 0; i < cars.Length; i++)
+            {
+                Console.WriteLine(cars[i]);
+            }
         }
     }
 }
